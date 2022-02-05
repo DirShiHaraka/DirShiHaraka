@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DirShiHaraka</title>
+    <link rel="icon" href="logo2.jpg">
+    <link href="style2.css" rel="stylesheet">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./bootstrap.bundle.min.js"></script>
+  <style>
+      #hero{
+   position: relative;
+   margin-top: 75px !important;
+}
+#hero video{
+   height: 100vh;
+   width: 100%;
+   background-position: absolute;
+   z-index: 10;
+   object-fit :cover;
+   opacity: 60%;
+   
+}
+#hero .content{
+   background: rgba(0,0,0,0,5);
+   height: 100;
+   width: 100%;
+   z-index: 20;
+   position: absolute;
+   top: 0;
+   left: 0;
+   
+}
+#hero .content h1{
+   color:black;
+   font-weight: bold;
+   font-family: normal;
+   text-shadow: 4px 2px rgb(240, 232, 232);
+   font-size: 30px;
+}
+#head{
+   display: flex;
+   flex-wrap: wrap;
+}
+#head div{
+    width: 50%;   
+    margin-top: 10px; 
+    text-align:initial;
+}
+.milieu{
+   font-size: 60px;
+   line-height: 100px;
+   color: rgb(5, 5, 5);
+   font-weight: bolder;
+   font-family :italic;
+   text-shadow: 4px 6px rgb(230, 85, 85);
+   text-align: center;
+   border: black 2px solid;
+   border-radius: 20%;
+   margin-left: 0px;
+}
+.t-milieu{
+   font-size: 30px;
+   font-weight: 900;
+}
+#logo{
+   margin-left: 170px;
+   margin-top: 40px;
+   opacity: 30%;
+   border: rgb(9, 1, 19) 5px solid;
+   border-radius: 50%;
+}
+#start{
+   margin-left: 300px;
+   margin-top: 80px;
+   text-shadow: 4px 2px rgb(241, 241, 237);
+   color: rgb(14, 11, 11);
+   opacity: 30%;
+   font-family: italic;
+}
+.header{
+     width: 100%;
+     position:fixed;
+     top: 0px;
+     z-index: 1300 !important;
+}
+
+
+      .b{text-align: center;}
+           
+            
+           #MM{height: 550px;
+           text-align: center;}
+           
+           .fa {
+                padding: 20px;
+               font-size: 30px;
+               width: 60px;
+               text-align: center;
+               text-decoration: none;
+               margin: 5px 2px; }
+                   .fa:hover {
+                               opacity: 0.7;
+                                  }
+                   .fa-facebook {
+                                 background: #3B5998;
+                                 color: white;
+                                }
+                                .fa-google {
+                                       background: #dd4b39;
+                                      color: white;
+                                              }
+                               .fa-instagram {
+                                                background: #125688;
+                                               color: white;
+                                                                 }
+                               .fa-snapchat-ghost {
+                                                 background: #fffc00;
+                                                    color: white;
+                                                   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                                                                  }
+          
+                                                                  
+            #pp{
+                
+                margin-left: 475px;
+                margin-top: 70px;
+                opacity: 100%;
+                
+            }
+            #BG{
+                height: 520px;
+                background-image: url("logo4.jpg");
+                background-color: #2e2b2b;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                margin-left: 80px
+                
+               
+           }
+              #T1{
+              text-align: center;
+              font-size: 50px;
+              font-weight: bolder;
+              font-family :italic;
+              text-shadow: 4px 4px rgb(243, 243, 239);
+              text-align: center;
+          }
+          #Motiv{
+              display: flex;
+              flex-wrap: wrap;
+          }
+          #Motiv div{
+              width: 30%;
+              margin: 20px;
+          }
+          #Motiv img{
+              height: 300px;
+              width: 350px;
+          }
+          #body{
+              background-color: rgb(235, 237, 243);
+          }
+          h4{
+              text-align: center;
+          }
+          .container div{
+              text-align: center;
+              
+          }
+         .card-body{
+             background-color: rgb(243, 241, 237);
+             text-decoration: none;
+             border: 0px;
+         }
+         .container{
+             display: flex;
+             flex-wrap: wrap;
+         }
+         
+*{
+ margin: 0px;
+ padding: 0px;
+ 
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  height: 260px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+#co{
+   text-align: center;
+}
+#all{
+   background-color: rgb(229, 228, 236);
+}
+  </style>
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark header" ;>
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#"><img src="./logo2.jpg" height="50px" width="50px"> &nbsp;&nbsp;</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-t>
+            <span class="navbar-toggler-icon"></span> 
+            </button> 
+        <div class="collapse navbar-collapse" id="mynavbar">
+         <ul class="navbar-nav me-auto">
+             <li class="nav-item">
+                 <a class="nav-link" href="#"> MAISON &nbsp; &nbsp;&nbsp;&nbsp;</a> 
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#PROGRAMMES">PROGRAMMES  &nbsp; &nbsp;&nbsp;&nbsp;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#MATERIELS"> MATERIELS  &nbsp; &nbsp;&nbsp;&nbsp;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#MACHINES">MACHINES  &nbsp; &nbsp;&nbsp;&nbsp;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#CONTACT"> CONTACT  &nbsp; &nbsp;&nbsp;&nbsp;</a>
+            </li>
+         </ul>
+             <h1 style=" color:rgb(175, 172, 172);
+             font-weight: bold;
+             font-family: normal;
+           
+             font-size: 30px;">DirShiHaraka.com</h1>
+        </div>
+    </nav>
+
+<div id="hero">
+    <video id="vid" loop muted autoplay poster="">
+        <source src="./projetvideo2.mp4" type="video/mp4">
+    </video>
+    <div class="content d-flex align-items-center">
+       <div class="container text-center">
+          <div id="head">
+
+                        <div class="milieu" style="padding-left: 65px; " >
+                        <p style="margin-top: 20px;"> Shri Materiels,w bda Programme </p>
+                        <p style="margin-left: 120px;"> Daba !!</p>
+                        </div>
+                        <div> <img  id="logo" src="./logo.jpg" height="280px" width="280px" >    </div>
+                        <div class="t-milieu" style="padding-left: 100px; margin-top: 40px;">
+                          <p> Materiels,programmes,machines   </p>
+                          <p style="margin-left: 130px;">et produits</p>
+                        </div>
+                        <div> <h3 id="start"> Sport , école de vie .</h1</div>
+            </div>
+          </div>
+       </div>
+    </div>
+</div>  
+<div id="all">
+<a name="PROGRAMMES" >
+<div>
+    <h1 id=T1>Programmes </h1>
+    <h4> Zero Excuses</h4>
+    <div id="Motiv">
+        <div> <img src="./Motiv2.jpg" ></div>
+        <div> <img src="./Motiv1.jpg" ></div>
+        <div> <img src="./Motiv3.jpg" ></div>
+    </div>
+</div>  
+<div class="main">
+
+      
+
+    <div class="card">
+
+       <div class="image">
+          <img src="./haut.jpg" height="100px">
+       </div><br>
+       <div class="title">
+          <h1 style="text-align: center;">Optez à un haut du corps bien musclé</h1> <br>
+         <p id="co"> Perdez la graisse du ventre, obtenez des abdos musclés en 4 semaines seulement grace à ce programme efficace</p>
+       </div>
+       <div class="des">
+          300 MAD <br>
+          <button>Acheter</button>
+       </div>
+    </div>
+    
+
+
+    <div class="card">
+
+       <div class="image">
+          <img src="./bas2.jpg" height="80px">
+       </div><br>
+       <div class="title">
+          <h1 style="text-align: center;">Pour un bas du corps plus fort <br><br>
+          </h1>
+          <p id="co"> En 4 semaines seulement, ce programme rend vos jambes plus puissantes et améliore votre force et votre équilibre</p>
+       </div>
+       <div class="des">
+          250 MAD <br>
+          <button>Acheter</button>
+       </div>
+    </div>
+   
+
+
+    <div class="card">
+
+       <div class="image">
+          <img src="./hautF.jpg" height="265px">
+       </div><br>
+       <div class="title">
+          <h1 style="text-align: center;">Sculptez le haut de votre corps</h1><br>
+          <p id="co">Aplatissez votre ventre ,façonnez vos abdos en 4 semaines grace à ce programme, ça aide aussi à raffermir votre bras .</p>
+       </div>
+       <div class="des">
+          250 MAD <br>
+          <button>Acheter</button>
+       </div>
+    </div>
+    
+
+
+    <div class="card">
+
+       <div class="image">
+          <img src="./basF.jpg" height="265px">
+       </div> <br>
+       <div class="title">
+          <h1 style="text-align: center;"> Pour un bas du corps musclé , parfait
+             <br><br>
+          </h1>
+          <p id="co">Ce programme vous aide à bruler vite la graisse des jambes et fomer un fessier en forme de péche en 4 semaines seulement .</p>
+       </div>
+       <div class="des">
+          300 MAD <br>
+          <button>Acheter </button>
+       </div>
+    </div>
+ </div>
+</a>
+<a name="MATERIELS">
+<h1 id=T1>Materiels</h1>
+    <h4> Tout est Disponible !</h4>
+    <div class="main">
+
+        
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="./M1.jpg">
+       </div>
+       <div class="title">
+        <h1 style="text-align: center;">
+       KETTLEBELL</h1>
+       </div>
+       <div class="des">
+        
+       <h3>200 MAD</h3>
+       <button>ACHETER</button>
+       </div>
+       </div>
+    
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="./M2.jpg">
+       </div>
+       <div class="title">
+        <h1 style="text-align: center;">
+       CORDE</h1>
+       </div>
+       <div class="des">
+        
+       <h3>159 MAD</h3>
+       <button>ACHETER</button>
+       </div>
+       </div>
+              
+       <div class="card">
+       
+       <div class="image">
+          <img src="./M3µ.jpg">
+       </div>
+       <div class="title">
+        <h1 style="text-align: center;">
+       ABDOS</h1>
+       </div>
+       <div class="des">
+        
+       <h3>55 MAD</h3>
+       <button>ACHETER</button>
+       </div>
+       </div>
+       
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="./M4.jpg">
+       </div>
+       <div class="title">
+        <h1  style="text-align: center;">
+       BALLON GYM</h1>
+       </div>
+       <div class="des">
+        
+       <h3>284 MAD</h3>
+       <button>ACHETER</button>
+       </div>
+       </div>       
+       <div class="card">
+       
+       <div class="image">
+          <img src="./bands.jpg">
+       </div>
+       <div class="title">
+        <h1 style="text-align: center;">
+       BANDS</h1>
+       </div>
+       <div class="des">
+        
+       <h3>208 MAD</h3>
+       <button>ACHETER</button>
+       </div>
+       </div>
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="./barres.jpg">
+       </div>
+       <div class="title">
+        <h1 style="text-align: center;">
+       BARRES</h1>
+       </div>
+       <div class="des">
+        
+       <h3>305 MAD</h3>
+       <button>ACHETER</button>
+       </div>
+       </div>
+       
+       
+       <div class="card">
+       
+       <div class="image">
+          <img src="./M7.jpg">
+       </div>
+       <div class="title">
+        <h1 style="text-align: center;">
+       ROULEAU</h1>
+       </div>
+       <div class="des">
+        
+       <h3>260 MAD</h3>
+       <button>ACHETER</button>
+       
+       </div>
+       </div>
+       <div class="card">
+       
+       <div class="image">
+          <img src="./batton.jpg">
+       </div>
+       <div class="title">
+        <h1 style="text-align: center;">
+       BATTON</h1>
+       </div>
+       <div class="des">
+        
+       <h3>180 MAD</h3>
+       <button>ACHETER</button>
+       </div>
+       </div>
+       
+       </div>
+    </a>
+    <a name="MACHINES">
+       <h1 id=T1>MACHINES</h1>
+       <h4> Divers Choix !</h4>
+       <div class="main">
+
+      
+
+        <div class="card">
+  
+           <div class="image">
+              <img src="./im2.jpg" height="100px">
+           </div>
+           <div class="title">
+              <h1 style="text-align: center;">Banc de musculation réglable</h1>
+           </div>
+           <div class="des">
+              999 MAD <br>
+              <button>Acheter</button>
+           </div>
+        </div>
+        
+  
+  
+        <div class="card">
+  
+           <div class="image">
+              <img src="./im0.jpg" height="100px">
+           </div>
+           <div class="title">
+              <h1  style="text-align: center;" >Banc réglable <br><br>
+              </h1>
+           </div>
+           <div class="des">
+              1249 MAD <br>
+              <button>Acheter</button>
+           </div>
+        </div>
+       
+  
+  
+        <div class="card">
+  
+           <div class="image">
+              <img src="./im3.jpg" height="265px">
+           </div>
+           <div class="title">
+              <h1  style="text-align: center;">Banc multifonctionnel</h1><br>
+           </div>
+           <div class="des">
+              869 MAD <br>
+              <button>Acheter</button>
+           </div>
+        </div>
+        
+  
+  
+        <div class="card">
+  
+           <div class="image">
+              <img src="./im8.jpg" height="265px">
+           </div>
+           <div class="title">
+              <h1  style="text-align: center;"> Vélo d'intérieur
+                 <br><br>
+              </h1>
+           </div>
+           <div class="des">
+              2449 MAD <br>
+              <button>Acheter </button>
+           </div>
+        </div>
+        
+  
+  
+        <div class="card">
+  
+           <div class="image">
+              <img src="./im5.jpg" height="265px">
+           </div>
+           <div class="title">
+              <h1  style="text-align: center;">Tour de puissance</h1>
+           </div>
+           <div class="des"> 
+              2449 MAD <br>
+              <button>Acheter</button>
+           </div>
+        </div>
+        
+  
+        <div class="card">
+  
+           <div class="image">
+              <img src="./im6.jpg">
+           </div>
+           <div class="title">
+              <h1  style="text-align: center;">Appareil à charges</h1>
+           </div>
+           <div class="des">
+              1499 MAD <br>
+              <button>Acheter</button>
+           </div>
+        </div>
+        
+  
+        <div class="card">
+  
+           <div class="image">
+              <img src="./im7.jpg">
+           </div>
+           <div class="title">
+              <h1  style="text-align: center;">Barre de Squat</h1>
+           </div>
+           <div class="des">
+              499 MAD <br>
+              <button>Acheter</button>
+  
+           </div>
+        </div>
+     
+  
+  
+        <div class="card">
+  
+           <div class="image">
+              <img src="./tp.jpg">
+           </div>
+           <div class="title">
+              <h1  style="text-align: center;">Tapis roulant</h1>
+           </div>
+           <div class="des">
+              2999 MAD <br>
+              <button>Acheter</button>
+           </div>
+        </div>
+     </div>
+     </div>
+    </a>
+    <a name="CONTACT">
+     <div id="BG"> 
+      <h4 style="font-size: 25px; margin-left: 0px ; text-align: center; font-weight: bolder; margin-right: 35px;"> CONTACTEZ-NOUS </h4>
+      <br><br><br><br>
+      <span id="MM"> 
+          <a id="pp" href="#" class="fa fa-facebook" ></a>
+          <a id="pp" style="margin-left: 20px;" href="#" class="fa fa-google"></a>
+          <a id="pp" style="margin-left: 20px;" href="#" class="fa fa-instagram"></a>
+          <a id="pp" style="margin-left: 20px;" href="#" class="fa fa-snapchat-ghost"></a>
+      </span>
+      <h4 style="text-align: center; margin-top: 150px;">Adaptez la durée à votre nouveau mode de vie ...</h4>
+  </div>
+</div>
+
+</a>
+</div>
+</body>
+</html>
